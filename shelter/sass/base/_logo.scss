@@ -1,0 +1,13 @@
+.logo__title {
+	margin-bottom: 10px;
+
+	color: $color-primary;
+}
+
+.logo__subtitle {
+	@extend %family_secondary;
+	@include font($size: 1.3rem, $height: 1.15em, $spacing: 0.1em);
+
+	text-align: center;
+	color: $color-light-xl;
+}

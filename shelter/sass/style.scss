@@ -1,6 +1,15 @@
 // import constants, mixins, placeholders
 @import "./abstract/constants";
 @import "./abstract/placeholders";
+@import "./abstract/mixins";
+
+//import base blocks
+@import "./base/base";
+@import "./base/logo";
+@import "./base/nav";
+
+//import components
+@import "./component/start_screen";
 
 // import layout
 @import "./layout/header";

@@ -1,3 +1,151 @@
+body {
+  font-family: Georgia, sans-serif;
+}
 
+.logo__subtitle, p,
+li {
+  font-family: Arial, sans-serif;
+}
+
+html {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 1280px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+  color: #545454;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1em;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 4.4rem;
+  line-height: 1.3em;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 3.5rem;
+  line-height: 1.3em;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 1.15em;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.1em;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+li {
+  font-size: 1.5rem;
+  line-height: 1.6em;
+  letter-spacing: 0em;
+  font-weight: 400;
+  font-style: normal;
+  color: #4C4C4C;
+}
+
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #545454;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.logo__title {
+  margin-bottom: 10px;
+  color: #F1CDB3;
+}
+
+.logo__subtitle {
+  font-size: 1.3rem;
+  line-height: 1.15em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.nav {
+  display: flex;
+  column-gap: 35px;
+}
+
+.nav__item a {
+  color: #CDCDCD;
+}
+
+.nav__item_active {
+  border-bottom: 3px solid #F1CDB3;
+}
+
+.nav__item_active a {
+  color: #FFFFFF;
+}
+
+.start_screen {
+  padding-top: 60px;
+}
+
+.header {
+  padding: 30px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 0 40px;
+}
+
+.wrapper_gradient {
+  background-color: #211F20;
+  background-image: url(/shelter/img/start_screen/noise_transparent@2x.png), radial-gradient(80% 120% at top left, #5B483A, #262425);
+}
 
 /*# sourceMappingURL=style.css.map */

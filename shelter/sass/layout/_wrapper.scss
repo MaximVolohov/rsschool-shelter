@@ -1,0 +1,9 @@
+.wrapper {
+	padding: 0 40px;
+}
+
+.wrapper_gradient {
+	background-color: $color-background-gradient;
+	background-image: url(/shelter/img/start_screen/noise_transparent@2x.png),
+					  radial-gradient(80% 120% at top left, #5B483A, #262425);
+}

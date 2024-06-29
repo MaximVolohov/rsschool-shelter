@@ -2,7 +2,7 @@
 	"name": "shelter",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "shelter/index.js",
 	"scripts": {
 		"style": "sass --watch shelter/sass/style.scss shelter/sass/style.css",
 		"test": "echo \"Error: no test specified\" && exit 1"
