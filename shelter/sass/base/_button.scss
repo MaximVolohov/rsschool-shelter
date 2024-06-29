@@ -10,4 +10,8 @@
 
 	background-color: $color-primary;
 	color: $color-dark-3xl;
+
+	&:hover {
+		background-color: $color-primary-light;
+	}
 }
