@@ -1,0 +1,13 @@
+.button {
+	display: inline-block;
+	padding: 15px 45px;
+
+	border-radius: 100px;
+}
+
+.button_primary {
+	@include font($size: 1.7rem, $height: 1.3em, $spacing: 0.06em);
+
+	background-color: $color-primary;
+	color: $color-dark-3xl;
+}
