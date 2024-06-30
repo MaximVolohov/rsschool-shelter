@@ -10,12 +10,14 @@
 @import "./base/button";
 @import "./base/slider";
 @import "./base/list";
+@import "./base/credit-card";
 
 //import components
 @import "./component/start_screen";
 @import "./component/about";
 @import "./component/pets";
 @import "./component/help";
+@import "./component/donation";
 
 // import layout
 @import "./layout/header";

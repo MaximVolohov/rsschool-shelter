@@ -1,0 +1,19 @@
+.credit-card {
+	display: inline-flex;
+	padding: 10px 15px;
+	background-color: $color-primary;
+	border-radius: 9px;
+}
+
+.credit-card__image {
+	width: 30px;
+	height: 23px;
+
+	background-image: url(/shelter/img/donation/credit-card.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.credit-card__title {
+	margin-left: 15px;
+}
