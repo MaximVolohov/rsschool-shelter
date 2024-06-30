@@ -9,11 +9,13 @@
 @import "./base/nav";
 @import "./base/button";
 @import "./base/slider";
+@import "./base/list";
 
 //import components
 @import "./component/start_screen";
 @import "./component/about";
 @import "./component/pets";
+@import "./component/help";
 
 // import layout
 @import "./layout/header";
