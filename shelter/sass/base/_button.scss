@@ -1,17 +1,54 @@
 .button {
 	display: inline-block;
-	padding: 15px 45px;
+	padding: 13px 43px;
 
 	border-radius: 100px;
-}
 
-.button_primary {
 	@include font($size: 1.7rem, $height: 1.3em, $spacing: 0.06em);
-
-	background-color: $color-primary;
 	color: $color-dark-3xl;
 
 	&:hover {
 		background-color: $color-primary-light;
 	}
+}
+
+.button_primary, .button_active {
+	border: 2px solid $color-primary;
+	background-color: $color-primary;
+}
+
+.button_secondary {
+	border: 2px solid $color-primary;
+	background-color: $color-light-xl;
+}
+
+.button_inactive {
+	border: 2px solid $color-dark-s;
+	background-color: $color-light-xl;
+	color: $color-dark-s;
+}
+
+.button_mini {
+	box-sizing: border-box;
+	width: 52px;
+	height: 52px;
+	padding: 0;
+}
+
+.button_arrow-left {
+	background-image: url(/shelter/img/pets/arrow_left.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button_arrow-right {
+	background-image: url(/shelter/img/pets/arrow_right.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button_close {
+	background-image: url(/shelter/img/pets/close.svg);
+	background-repeat: no-repeat;
+	background-position: center;
 }

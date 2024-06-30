@@ -8,10 +8,12 @@
 @import "./base/logo";
 @import "./base/nav";
 @import "./base/button";
+@import "./base/slider";
 
 //import components
 @import "./component/start_screen";
 @import "./component/about";
+@import "./component/pets";
 
 // import layout
 @import "./layout/header";
