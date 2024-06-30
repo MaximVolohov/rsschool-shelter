@@ -3,6 +3,10 @@
 	padding: 10px 15px;
 	background-color: $color-primary;
 	border-radius: 9px;
+
+	&:hover {
+		background-color: $color-primary-light;
+	}
 }
 
 .credit-card__image {

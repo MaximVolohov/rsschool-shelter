@@ -225,6 +225,9 @@ li {
   background-color: #F1CDB3;
   border-radius: 9px;
 }
+.credit-card:hover {
+  background-color: #FDDCC4;
+}
 
 .credit-card__image {
   width: 30px;
