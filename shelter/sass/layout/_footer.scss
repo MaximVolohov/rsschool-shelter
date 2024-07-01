@@ -1,0 +1,41 @@
+.footer {
+	padding-top: 40px;
+}
+
+.footer__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__contacts, .footer__locations {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 16px;
+	padding-bottom: 60px;
+}
+
+.footer__locations {
+	margin-right: 8px;
+}
+
+.footer__item {
+	display: inline-flex;
+	align-items: center;
+}
+
+.footer_title {
+	color: $color-light-xl;
+}
+
+.footer__icon {
+	margin-right: 20px;
+}
+
+.footer__subtitle {
+	color: $color-primary;
+
+	&:hover {
+		color: $color-primary-light;
+	}
+}
