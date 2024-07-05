@@ -7,3 +7,15 @@
 	justify-content: space-between;
 	align-items: center;
 }
+
+.header__secondary {
+	background-color: $color-light-xl;
+
+	& h1, .nav__item a {
+		color: $color-dark-l;
+	}
+
+	& p, .nav__item_active a {
+		color: $color-dark-3xl;
+	}
+}
