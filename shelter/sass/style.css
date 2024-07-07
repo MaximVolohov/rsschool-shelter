@@ -153,6 +153,8 @@ li {
 .button_inactive {
   border: 2px solid #CDCDCD;
   background-color: #FFFFFF;
+}
+.button_inactive > * {
   color: #CDCDCD;
 }
 
@@ -160,7 +162,7 @@ li {
   box-sizing: border-box;
   width: 52px;
   height: 52px;
-  padding: 0;
+  padding: 12px 0 13px;
 }
 
 .button_arrow-left {
@@ -190,6 +192,11 @@ li {
 .slider__content {
   display: flex;
   gap: 90px;
+}
+
+.slider__content__full {
+  gap: 30px 40px;
+  flex-wrap: wrap;
 }
 
 .slider__card {
@@ -304,6 +311,14 @@ li {
 
 .pets__button {
   margin-top: 60px;
+  text-align: center;
+}
+
+.pets__pagination {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
   text-align: center;
 }
 
