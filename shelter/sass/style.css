@@ -166,19 +166,19 @@ li {
 }
 
 .button_arrow-left {
-  background-image: url(/shelter/img/pets/arrow_left.svg);
+  background-image: url(../img/pets/arrow_left.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .button_arrow-right {
-  background-image: url(/shelter/img/pets/arrow_right.svg);
+  background-image: url(../img/pets/arrow_right.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .button_close {
-  background-image: url(/shelter/img/pets/close.svg);
+  background-image: url(../img/pets/close.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -239,7 +239,7 @@ li {
 .credit-card__image {
   width: 30px;
   height: 23px;
-  background-image: url(/shelter/img/donation/credit-card.svg);
+  background-image: url(../img/donation/credit-card.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -252,7 +252,7 @@ li {
   margin-top: 60px;
   padding-top: 163px;
   padding-bottom: 243px;
-  background-image: url(/shelter/img/start_screen/start-screen-puppy.png);
+  background-image: url(../img/start_screen/start-screen-puppy.png);
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -282,7 +282,7 @@ li {
   margin-right: 60px;
   width: 300px;
   height: 408px;
-  background-image: url(/shelter/img/about/about-pets.png);
+  background-image: url(../img/about/about-pets.png);
 }
 
 .about__content {
@@ -399,7 +399,7 @@ li {
 
 .wrapper_gradient {
   background-color: #211F20;
-  background-image: url(/shelter/img/start_screen/noise_transparent@2x.png), radial-gradient(80% 120% at top left, #5B483A, #262425);
+  background-image: url(../img/start_screen/noise_transparent@2x.png), radial-gradient(80% 120% at top left, #5B483A, #262425);
 }
 
 .footer {
