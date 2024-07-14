@@ -5,10 +5,17 @@
 
 .nav__item a {
 	color: $color-dark-s;
+
+	&:hover {
+		color: $color-light-s;
+		@include transition(color);
+	}
 }
 
 .nav__item_active {
 	border-bottom: 3px solid $color-primary;
+
+	pointer-events: none;
 }
 
 .nav__item_active a {

@@ -92,6 +92,11 @@ li {
   list-style: none;
 }
 
+.logo:hover .logo__title {
+  color: #FDDCC4;
+  transition: color 1s ease;
+}
+
 .logo__title {
   margin-bottom: 10px;
   color: #F1CDB3;
@@ -115,9 +120,14 @@ li {
 .nav__item a {
   color: #CDCDCD;
 }
+.nav__item a:hover {
+  color: #FAFAFA;
+  transition: color 1s ease;
+}
 
 .nav__item_active {
   border-bottom: 3px solid #F1CDB3;
+  pointer-events: none;
 }
 
 .nav__item_active a {
@@ -138,6 +148,7 @@ li {
 .button:hover {
   border: 2px solid #FDDCC4;
   background-color: #FDDCC4;
+  transition: background-color 1s ease;
 }
 
 .button_primary, .button_active {
@@ -232,6 +243,7 @@ li {
 }
 .credit-card:hover {
   background-color: #FDDCC4;
+  transition: background-color 1s ease;
 }
 
 .credit-card__image {
@@ -432,6 +444,10 @@ li {
   display: inline-flex;
   align-items: center;
 }
+.footer__item:hover .footer__subtitle {
+  color: #FDDCC4;
+  transition: color 1s ease;
+}
 
 .footer_title {
   color: #FFFFFF;
@@ -443,9 +459,6 @@ li {
 
 .footer__subtitle {
   color: #F1CDB3;
-}
-.footer__subtitle:hover {
-  color: #FDDCC4;
 }
 
 /*# sourceMappingURL=style.css.map */

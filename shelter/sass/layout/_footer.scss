@@ -22,6 +22,11 @@
 .footer__item {
 	display: inline-flex;
 	align-items: center;
+
+	&:hover .footer__subtitle {
+		color: $color-primary-light;
+		@include transition(color);
+	}
 }
 
 .footer_title {
@@ -34,8 +39,4 @@
 
 .footer__subtitle {
 	color: $color-primary;
-
-	&:hover {
-		color: $color-primary-light;
-	}
 }
