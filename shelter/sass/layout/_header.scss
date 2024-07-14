@@ -13,6 +13,11 @@
 
 	& h1, .nav__item a {
 		color: $color-dark-l;
+
+		&:hover {
+			color: $color-dark-3xl;
+			@include transition(color);
+		}
 	}
 
 	& p, .nav__item_active a {

@@ -11,6 +11,8 @@
 		border: 2px solid $color-primary-light;
 		background-color: $color-primary-light;
 		@include transition(background-color);
+
+		cursor: pointer;
 	}
 }
 
@@ -29,6 +31,8 @@
 	background-color: $color-light-xl;
 
 	color: $color-dark-s;
+
+	pointer-events: none;
 }
 
 .button_mini {

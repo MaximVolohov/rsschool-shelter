@@ -150,6 +150,7 @@ li {
   border: 2px solid #FDDCC4;
   background-color: #FDDCC4;
   transition: background-color 1s ease;
+  cursor: pointer;
 }
 
 .button_primary, .button_active {
@@ -166,6 +167,7 @@ li {
   border: 2px solid #CDCDCD;
   background-color: #FFFFFF;
   color: #CDCDCD;
+  pointer-events: none;
 }
 
 .button_mini {
@@ -214,6 +216,7 @@ li {
   border-radius: 9px;
   background-color: #FAFAFA;
   text-align: center;
+  cursor: pointer;
 }
 .slider__card:hover .button {
   border: 2px solid #FDDCC4;
@@ -410,6 +413,10 @@ li {
 }
 .header__secondary h1, .header__secondary .nav__item a {
   color: #545454;
+}
+.header__secondary h1:hover, .header__secondary .nav__item a:hover {
+  color: #292929;
+  transition: color 1s ease;
 }
 .header__secondary p, .header__secondary .nav__item_active a {
   color: #292929;
