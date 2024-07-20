@@ -21,6 +21,14 @@
 	background-color: $color-light-s;
 
 	text-align: center;
+
+	cursor: pointer;
+
+	&:hover .button{
+		border: 2px solid $color-primary-light;
+		background-color: $color-primary-light;
+		@include transition(background-color);
+	}
 }
 
 .slider__card-title {

@@ -1,9 +1,10 @@
 html {
 	font-size: 10px;
+	
+	scroll-behavior: smooth;
 }
 
 body {
-	width: $content-width;
 	margin: auto;
 
 	@extend %family_primary;

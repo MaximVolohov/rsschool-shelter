@@ -9,10 +9,10 @@ li {
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
-  width: 1280px;
   margin: auto;
 }
 
@@ -92,6 +92,11 @@ li {
   list-style: none;
 }
 
+.logo:hover .logo__title {
+  color: #FDDCC4;
+  transition: color 1s ease;
+}
+
 .logo__title {
   margin-bottom: 10px;
   color: #F1CDB3;
@@ -115,13 +120,18 @@ li {
 .nav__item a {
   color: #CDCDCD;
 }
+.nav__item a:hover {
+  color: #FAFAFA;
+  transition: color 1s ease;
+}
 
 .nav__item_active {
   border-bottom: 3px solid #F1CDB3;
+  pointer-events: none;
 }
 
 .nav__item_active a {
-  color: #FFFFFF;
+  color: #FAFAFA;
 }
 
 .button {
@@ -138,6 +148,8 @@ li {
 .button:hover {
   border: 2px solid #FDDCC4;
   background-color: #FDDCC4;
+  transition: background-color 1s ease;
+  cursor: pointer;
 }
 
 .button_primary, .button_active {
@@ -153,9 +165,8 @@ li {
 .button_inactive {
   border: 2px solid #CDCDCD;
   background-color: #FFFFFF;
-}
-.button_inactive > * {
   color: #CDCDCD;
+  pointer-events: none;
 }
 
 .button_mini {
@@ -204,6 +215,12 @@ li {
   border-radius: 9px;
   background-color: #FAFAFA;
   text-align: center;
+  cursor: pointer;
+}
+.slider__card:hover .button {
+  border: 2px solid #FDDCC4;
+  background-color: #FDDCC4;
+  transition: background-color 1s ease;
 }
 
 .slider__card-title {
@@ -234,6 +251,7 @@ li {
 }
 .credit-card:hover {
   background-color: #FDDCC4;
+  transition: background-color 1s ease;
 }
 
 .credit-card__image {
@@ -249,7 +267,10 @@ li {
 }
 
 .start_screen {
-  margin-top: 60px;
+  padding-top: 60px;
+}
+
+.start_screen__wrapper {
   padding-top: 163px;
   padding-bottom: 243px;
   background-image: url(../img/start_screen/start-screen-puppy.png);
@@ -321,6 +342,13 @@ li {
   column-gap: 20px;
   text-align: center;
 }
+.pets__pagination .button {
+  font-size: 2rem;
+  line-height: 1.15em;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .help {
   background-color: #FFFFFF;
@@ -388,11 +416,19 @@ li {
 .header__secondary h1, .header__secondary .nav__item a {
   color: #545454;
 }
+.header__secondary h1:hover, .header__secondary .nav__item a:hover {
+  color: #292929;
+  transition: color 1s ease;
+}
 .header__secondary p, .header__secondary .nav__item_active a {
   color: #292929;
 }
 
 .wrapper {
+  box-sizing: border-box;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -406,7 +442,7 @@ li {
   padding-top: 40px;
 }
 
-.footer__content {
+.footer__wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -427,6 +463,10 @@ li {
   display: inline-flex;
   align-items: center;
 }
+.footer__item:hover .footer__subtitle {
+  color: #FDDCC4;
+  transition: color 1s ease;
+}
 
 .footer_title {
   color: #FFFFFF;
@@ -438,9 +478,6 @@ li {
 
 .footer__subtitle {
   color: #F1CDB3;
-}
-.footer__subtitle:hover {
-  color: #FDDCC4;
 }
 
 /*# sourceMappingURL=style.css.map */

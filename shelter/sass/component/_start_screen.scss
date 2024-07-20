@@ -1,7 +1,10 @@
 .start_screen {
-	margin-top: 60px;
+	padding-top: 60px;
+}
+
+.start_screen__wrapper {
 	padding-top: 163px;
-	padding-bottom: 243px;
+	padding-bottom: 243px;	
 	
 	background-image: url(../img/start_screen/start-screen-puppy.png);
 	background-position: right;
