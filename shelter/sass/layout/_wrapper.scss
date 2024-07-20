@@ -1,4 +1,10 @@
 .wrapper {
+	box-sizing: border-box;
+	width: $content-width;
+	
+	margin-left: auto;
+	margin-right: auto;
+
 	padding-left: 40px;
 	padding-right: 40px;
 }

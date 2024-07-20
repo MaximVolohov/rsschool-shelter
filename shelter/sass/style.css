@@ -13,7 +13,6 @@ html {
 }
 
 body {
-  width: 1280px;
   margin: auto;
 }
 
@@ -268,7 +267,10 @@ li {
 }
 
 .start_screen {
-  margin-top: 60px;
+  padding-top: 60px;
+}
+
+.start_screen__wrapper {
   padding-top: 163px;
   padding-bottom: 243px;
   background-image: url(../img/start_screen/start-screen-puppy.png);
@@ -423,6 +425,10 @@ li {
 }
 
 .wrapper {
+  box-sizing: border-box;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -436,7 +442,7 @@ li {
   padding-top: 40px;
 }
 
-.footer__content {
+.footer__wrapper {
   display: flex;
   justify-content: space-between;
 }

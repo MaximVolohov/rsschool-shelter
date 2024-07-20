@@ -17,7 +17,7 @@ $color-background-secondary: $color-light-l;
 $color-background-gradient: #211F20;
 
 $content-width: 1280px;
-$wrapper-width: 1280px;
+$wrapper-width: $content-width;
 $tablet-width: 768px;
 $mobile-big-width: 375px;
 $mobile-small-width: 320px;
