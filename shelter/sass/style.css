@@ -217,6 +217,9 @@ li {
   text-align: center;
   cursor: pointer;
 }
+.slider__card:hover {
+  box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.0470588235);
+}
 .slider__card:hover .button {
   border: 2px solid #FDDCC4;
   background-color: #FDDCC4;
