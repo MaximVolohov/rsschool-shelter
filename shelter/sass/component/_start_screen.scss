@@ -1,5 +1,9 @@
 .start_screen {
 	padding-top: 60px;
+
+	@include media-tablet {
+		padding-top: 30px;
+	}
 }
 
 .start_screen__wrapper {
@@ -9,6 +13,17 @@
 	background-image: url(../img/start_screen/start-screen-puppy.png);
 	background-position: right;
 	background-repeat: no-repeat;
+
+	@include media-tablet {
+		padding: 0 124px 693px;
+
+		background-size: 569px 593px;
+		background-position: bottom right;
+
+		& .button {
+			margin-left: 126px;
+		}
+	}
 }
 
 .start_screen__title {

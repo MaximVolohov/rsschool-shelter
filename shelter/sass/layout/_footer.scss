@@ -1,10 +1,22 @@
 .footer {
 	padding-top: 40px;
+
+	@include media-tablet {
+		padding-top: 30px;
+	}
 }
 
 .footer__wrapper {
 	display: flex;
 	justify-content: space-between;
+
+	@include media-tablet {
+		flex-wrap: wrap;
+		justify-content: left;
+		column-gap: 60px;
+
+		padding: 0 64px;
+	}
 }
 
 .footer__contacts, .footer__locations {
@@ -13,10 +25,19 @@
 	justify-content: space-between;
 	padding-top: 16px;
 	padding-bottom: 60px;
+
+	@include media-tablet {
+		height: 234px;
+		padding: 0;
+	}
 }
 
 .footer__locations {
 	margin-right: 8px;
+
+	@include media-tablet {
+		margin-right: 0;
+	}
 }
 
 .footer__item {
@@ -39,4 +60,10 @@
 
 .footer__subtitle {
 	color: $color-primary;
+}
+
+.footer__image {
+	@include media-tablet {
+		margin: 65px auto 0;
+	}
 }

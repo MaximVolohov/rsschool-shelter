@@ -3,12 +3,25 @@
 	gap: 50px 120px;
 	flex-wrap: wrap;
 	justify-content: center;
+
+	@include media-tablet {
+		gap: 55px 60px;
+	}
 }
 
 .list__item {
 	text-align: center;
+
+	@include media-tablet {
+		height: 113px;
+		width: 170px;
+	}
 }
 
 .list__title {
 	margin-top: 30px;
+
+	@include media-tablet {
+		margin-top: 25px;
+	}
 }

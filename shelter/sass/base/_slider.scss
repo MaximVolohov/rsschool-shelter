@@ -7,6 +7,14 @@
 .slider__content {
 	display: flex;
 	gap: 90px;
+
+	@include media-tablet {
+		gap: 40px;
+
+		& .slider__card:last-child {
+			display: none;
+		}
+	}
 }
 
 .slider__content__full {

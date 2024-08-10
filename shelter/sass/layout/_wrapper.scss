@@ -7,6 +7,21 @@
 
 	padding-left: 40px;
 	padding-right: 40px;
+
+	@include media-tablet {
+		width: $tablet-width;
+
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	@include media-mobile-big {
+		width: $mobile-big-width;
+	}
+
+	@include media-mobile-small {
+		width: $mobile-small-width;
+	}
 }
 
 .wrapper_gradient {
