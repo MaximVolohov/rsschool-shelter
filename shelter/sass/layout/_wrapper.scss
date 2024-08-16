@@ -17,6 +17,9 @@
 
 	@include media-mobile-big {
 		width: $mobile-big-width;
+
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	@include media-mobile-small {

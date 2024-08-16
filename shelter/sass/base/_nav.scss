@@ -1,6 +1,10 @@
 .nav {
 	display: flex;
 	column-gap: 35px;
+
+	@include media-mobile-big {
+		display: none;
+	}
 }
 
 .nav__item a {

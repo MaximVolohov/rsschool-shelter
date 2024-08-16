@@ -12,6 +12,10 @@
 	@include media-tablet {
 		flex-direction: column-reverse;
 	}
+
+	@include media-mobile-big {
+		padding: 42px 0;
+	}
 }
 
 .about__image {
@@ -24,6 +28,13 @@
 
 	@include media-tablet {
 		margin: 80px auto 0px;
+	}
+
+	@include media-mobile-big {
+		margin-top: 42px;
+		width: 260px;
+		height: 353.6px;
+		background-size: 260px 353.6px;
 	}
 }
 
@@ -39,4 +50,14 @@
 .about__subtitle {
 	margin-top: 25px;
 	padding-right: 10px;
+
+	@include media-mobile-big {
+		margin-top: 22px;
+		padding: 0 15px;
+		text-align: justify;
+
+		& br {
+			display: none;
+		}
+	}
 }

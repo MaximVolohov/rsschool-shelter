@@ -1,0 +1,30 @@
+%line {
+	display: block;
+	width: 30px;
+	height: 2px;
+	background-color: $color-primary;
+	content: '';
+}
+
+.burger_menu {
+	display: none;
+	margin-right: 10px;
+
+	&::before {
+		@extend %line;
+	}
+
+	&::after {
+		@extend %line;
+	}
+
+	@include media-mobile-big {
+		display: inline-block;
+	}
+}
+
+.burger_menu__line {
+	@extend %line;
+
+	margin: 8px 0;
+}

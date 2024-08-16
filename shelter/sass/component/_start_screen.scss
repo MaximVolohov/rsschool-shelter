@@ -24,6 +24,16 @@
 			margin-left: 126px;
 		}
 	}
+
+	@include media-mobile-big {
+		padding: 0 0 377px;
+
+		background-size: 260px 271.77px;
+
+		& .button {
+			margin-left: 46px;
+		}
+	}
 }
 
 .start_screen__title {
@@ -34,4 +44,12 @@
 	margin: 42px 0;
 
 	color: $color-dark-s;
+
+	@include media-mobile-big {
+		text-align: center;
+		
+		& br {
+			display: none;
+		}
+	}
 }

@@ -2,6 +2,22 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
+	@include media-mobile-big {
+		// flex-direction: column;
+		padding: 0 15px;
+		flex-wrap: wrap;
+
+		& :first-child {
+			// margin-left: 43px;
+			order: 2;
+		}
+
+		& :last-child {
+			margin-right: 43px;
+			order: 2;
+		}
+	}
 }
 
 .slider__content {
@@ -12,6 +28,12 @@
 		gap: 40px;
 
 		& .slider__card:last-child {
+			display: none;
+		}
+	}
+
+	@include media-mobile-big {
+		& .slider__card:nth-child(2) {
 			display: none;
 		}
 	}

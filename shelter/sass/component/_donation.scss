@@ -12,6 +12,10 @@
 	@include media-tablet {
 		flex-direction: column-reverse;
 	}
+
+	@include media-mobile-big {
+		padding: 42px 0;
+	}
 }
 
 .donation__image {
